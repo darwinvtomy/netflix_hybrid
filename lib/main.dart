@@ -62,7 +62,7 @@ class MyApp extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             darkTheme: ThemeData(
               brightness: Brightness.dark,
-              accentColor: appTheme.color,
+              accentColor: Colors.green,
               visualDensity: VisualDensity.standard,
               focusTheme: FocusThemeData(
                 glowFactor: is10footScreen() ? 2.0 : 0.0,
@@ -70,7 +70,7 @@ class MyApp extends StatelessWidget {
             ),
             theme: ThemeData(
               brightness: Brightness.dark,
-              accentColor: appTheme.color,
+              accentColor: Colors.green,
               visualDensity: VisualDensity.standard,
               focusTheme: FocusThemeData(
                 glowFactor: is10footScreen() ? 2.0 : 0.0,
